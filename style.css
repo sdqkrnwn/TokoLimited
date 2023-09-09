@@ -1,0 +1,175 @@
+.header{
+    width: 100%;
+    background-color: salmon;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.hero{
+    height: 690px;
+    background-size: cover;
+    background-image: url("logoku.jpeg");
+    text-align: center;
+    padding: 250px;
+}
+
+.hero h1{
+    color: red;
+    font-size: 60px;
+}
+
+.hero p{
+    color: red;
+    font-size: 20px;
+}
+
+.hero a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.hero a:hover{
+    color: white;
+    background-color: rebeccapurple;
+}
+
+.produk{
+    background-color: white;
+    width: 220px;
+    height: 420px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.produk img{
+    width: 230px;
+    height: 240px;
+    border-radius: 15px;
+}
+
+.nama-produk{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.harga-produk{
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+.produk a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 14px;
+}
+
+.menu-produk{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: salmon;
+}
+
+@media screen and (max-width: 768px) {
+
+    .produk{
+        width: 170px;
+        height: 270px;
+        padding-top: 10px;
+    }
+    
+    .produk img{
+        width: 170px;
+        height: 170px;
+    }
+
+    .produk a{
+        text-decoration: none;
+        color: white;
+        background-color: red;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 9px;
+    }
+
+    .nama-produk{
+        font-size: 16px;
+        font-weight: 400px;
+        margin-left: 5px;
+        margin-top: 1px;
+    }
+
+    .harga-produk{
+        color: black;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 5px;
+        margin-top: -10px;
+    }
+
+    .hero{
+        height: 360px;
+        padding: 55px;
+    }
+
+    .hero h1{
+        color: red;
+        font-size: 25px;
+        
+    }
+
+    .hero p{
+        color: red;
+        font-size: 15px;
+    }
+
+    .hero a{
+        text-decoration: none;
+        color: white;
+        background-color: red;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 15px;
+    }
+
+    .footer p{ 
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer{
+        margin-top: 80px;
+    }
+}

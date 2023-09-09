@@ -1,0 +1,92 @@
+.header{
+  width: 100%;
+  background-color: salmon;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.navbar-brand{
+  color: white !important;
+}
+
+.kontak-form {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .kontak-form h1{
+    font-size: 40px;
+    color: salmon;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+.kontak-form input[type="text"],
+.kontak-form input[type="email"],
+.kontak-form textarea {
+    background-color: white;
+    display: flex;
+    font-size: 18px;
+    text-align: left;
+    padding-right: 250px;
+    border-color: salmon;
+    margin: -10px;
+}
+  
+.kontak-form button {
+    background-color: red;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+.kontak-form button:hover {
+    background-color: rebeccapurple;
+  }
+
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: salmon;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .kontak-form {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .kontak-form h1{
+    font-size: 40px;
+    color: salmon;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .kontak-form input[type="text"],
+  .kontak-form input[type="email"],
+  .kontak-form textarea {
+    background-color: white;
+    display: flex;
+    font-size: 18px;
+    text-align: left;
+    padding-right: 130px;
+    border-color: salmon;
+    margin: -10px;
+  }
+
+  .footer p{ 
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .footer{
+    margin-top: 80px;
+  }
+}
