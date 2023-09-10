@@ -101,14 +101,14 @@
 @media screen and (max-width: 768px) {
 
     .produk{
-        width: 170px;
-        height: 270px;
+        width: 150px;
+        height: 250px;
         padding-top: 10px;
     }
     
     .produk img{
-        width: 170px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
     }
 
     .produk a{
